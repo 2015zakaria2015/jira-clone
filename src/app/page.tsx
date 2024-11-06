@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
+import { FcGoogle } from "react-icons/fc";
 
 export default function Home() {
   return (
  <div>
+            <FcGoogle  size={40} className="mr-2" />
+
   <Button >
     Primary
   </Button>
